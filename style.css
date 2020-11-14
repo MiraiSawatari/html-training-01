@@ -1,0 +1,45 @@
+/*
+私は css のコメント! 同じくブラウザには何も表示されないよ!!
+*/
+span{
+	/* <span>タグにだけ適応されるスタイルだよ!! */
+	background:#f00; /* 背景色を赤色にするよ! */
+	color:#fff; /* 文字色を白色にするよ!! */
+}
+p{
+	/* <p>タグにだけ適応されるるスタイルだよ!! */
+	background:#0f0; /* 背景色を赤色にするよ! */
+	color:#fff; /* 文字色を白色にするよ!! */
+}
+.test01{
+	/* test01っていうclass(クラス)がついているタグに適応されるスタイルだよ! */
+	background:url(image.jpg); /* このcssファイルと同じフォルダにある image.jpg を背景画像に設定するよ! */
+	/* background-image:url(image.jpg); 背景を画像にするときはこれでもOK! */
+	/* background:#f00; 背景を色にするときは -image を付けないでね! */
+	color:#fff; /* 文字色を白色にするよ!! */
+}
+.test02{
+		/* test01っていうclass(クラス)がついているタグに適応されるスタイルだよ! */
+	background:url(image.jpg); /* このcssファイルと同じフォルダにある image.jpg を背景画像に設定するよ! */
+	color:#fff; /* 文字色を白色にするよ!! */
+	padding:200px 0;
+	/* 文字の上下に200px分の空白を入れるよ! */
+	/*
+	ここで padding について説明!!
+	これはブロックの要素(例えば <h1>こんにちは</h1> なら こんにちは の部分)の周りに空白を入れるよ!
+	padding:上 右 下 左; 例: padding:10px 5px 5px 10px;
+	で指定できるよ!
+	ほかにも
+	padding:上下 左右; 例: padding:10px 20px;
+	とか
+	padding:上下左右; 例: padding:20px;
+	みたいな指定方法があるよ!
+	*/
+}
+.test03{
+	/* test03っていうclass(クラス)がついているタグに適応されるスタイルだよ! */
+	background:url(image.jpg); /* このcssファイルと同じフォルダにある image.jpg を背景画像に設定するよ! */
+	color:#fff; /* 文字色を白色にするよ!! */
+	padding:200px 0;
+	/* 200px分の空白を入れるよ! */
+}
